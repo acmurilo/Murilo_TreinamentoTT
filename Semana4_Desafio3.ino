@@ -8,7 +8,7 @@ void setup ()
 {
   s.attach(servo);
   Serial.begin(9600);
-  s.write(0); 
+  s.write(0);
 }
 
 void loop()
